@@ -18,7 +18,7 @@ int main(void)
     float j1;
     double j2;
 
-    printf("%d %d %d %d %d %d.\n", sizeof(i1), sizeof(i2), sizeof(i3), sizeof(i4), sizeof(j1), sizeof(j2));
+    printf("%u %u %u %u %u %u.\n", sizeof(i1), sizeof(i2), sizeof(i3), sizeof(i4), sizeof(j1), sizeof(j2));
 
     system("pause");
 
